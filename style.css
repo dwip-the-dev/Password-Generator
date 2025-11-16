@@ -1,0 +1,62 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .options {
+      margin: 15px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    label {
+      font-size: 14px;
+    }
+
+    #passwordBox {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      min-width: 300px;
+      text-align: center;
+      word-break: break-all;
+    }
+
+    #generateBtn, #copyBtn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 5px;
+    }
+
+    #generateBtn:hover, #copyBtn:hover {
+      background-color: #45a049;
+    }
+
+    #strength {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    input[type="range"] {
+      width: 200px;
+    }
